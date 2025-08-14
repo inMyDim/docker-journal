@@ -1,0 +1,1 @@
+docker container create --name mongobinddata --publish 27018:27017 --env MONGO_INITDB_ROOT_USERNAME=dim --env MONGO_INITDB_ROOT_PASSWORD=dim --mount "type=bind,source=/home/muhdim/docker-dasar-pzn/test-mongo-data,target=/data/db" mongo:latest

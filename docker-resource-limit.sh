@@ -1,0 +1,1 @@
+docker container create --name smallnginx --memory 100m --cpus 0.5 --publish 5000:80 nginx:latest
